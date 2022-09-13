@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "jpo";
+    src: url(../assets/fonts/DelaGothicOne-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+body {
+    background: url(../assets/img/mainbg.jpg) 100% 900px;
+    background-repeat: no-repeat;
+    /* background-size: 1600px 900px; */
+    /* aspect-ratio: 16/9; */
+    background-position: top;
+    background-color: #101315;
+}
+
+.header {
+    margin-top: 48px;
+    width: 100%;
+    height: 40px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0px auto;
+}
+
+.nav {
+    margin: 0 auto;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.logo-link {
+    cursor: pointer;
+}
+
+.btn {
+    color: white;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    padding: 8px 20px;
+    margin-right: 24px;
+}
+
+.phone {
+    color: white;
+}
+
+.banner-section .wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.heading {
+    color: white;
+    font-family: 'jpo';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 118%;
+    margin-top: 186px;
+    margin-bottom: 16px;
+    max-width: 489px;
+}
+
+.slogan {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    max-width: 486px;
+    margin-bottom: 24px;
+}
+
+.buttons {
+    margin-top: 24px;
+}
+
+.btn-game {
+    background: #E32966;
+    box-shadow: 0px 9px 26px rgba(227, 41, 102, 0.3);
+    border-radius: 32px;
+    padding: 12px 30px;
+    color: #FFFFFF;
+    margin-right: 30px;
+}
+
+.btn-price {
+    border: 1.5px solid #E32966;
+    border-radius: 32px;
+    color: #FFFFFF;
+    padding: 12px 30px;
+}
+
+.socials {
+    margin-top: 175px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 26px;
+}
+
+.icon {
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.about-section {
+    width: 100%;
+    margin-top: 96px;
+}
+
+.about-section .wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.title {
+    font-family: 'jpo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 118%;
+    text-transform: uppercase;
+    margin-top: 96px;
+    margin-bottom: 62px;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 948px;
+}
+
+.about-section .content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-section .text-content {
+    max-width: 337px;
+    text-align: left;
+}
+
+.subtitle {
+    margin-bottom: 41px;
+}
+
+.text-about {
+    margin-bottom: 29px;
+}
